@@ -5,22 +5,18 @@ div[class*="col"] {
   min-height: 100px;
 }
 
-/*debug*/
-.section-profile {
-  min-height: 500px;
+main section:nth-child(odd) {
   background-color: #1abc9c;
 }
 
-.section-portfolio {
+main section:nth-child(even) {
   background-color: #FFF;
-  /*debug*/
-  min-height: 400px;
 }
 
 /*debug*/
 main [class*="col-"] {
   background-color: transparent;
-  min-height: 500px;
+  min-height: 250px;
 }
 
 header {
@@ -36,7 +32,7 @@ header {
   }
 }
 
-@media all and (min-width: 1170px) {
+@media all and (min-width: 1200px) {
   /* debug */
   body {
     background-color: green;
