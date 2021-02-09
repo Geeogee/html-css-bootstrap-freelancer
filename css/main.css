@@ -1,14 +1,20 @@
 /* debug */
 div[class*="col"] {
-  background-color: red;
+  background-color: transparent;
   border: 1px solid #000;
   min-height: 100px;
 }
 
 /*debug*/
-main .section-profile {
+.section-profile {
   min-height: 500px;
   background-color: #1abc9c;
+}
+
+.section-portfolio {
+  background-color: #FFF;
+  /*debug*/
+  min-height: 400px;
 }
 
 /*debug*/
@@ -17,17 +23,10 @@ main [class*="col-"] {
   min-height: 500px;
 }
 
-/* header {
+header {
   background-color: #2c3e50;
-} */
+}
 
-
-
- nav {
-   /*debug*/
-   background-color: blue;
-   height: 100px;
- }
 
 
 @media all and (min-width: 992px) {
