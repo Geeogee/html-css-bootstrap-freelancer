@@ -1,3 +1,45 @@
-body {
+/* debug */
+div[class*="col"] {
   background-color: red;
+  border: 1px solid #000;
+  min-height: 100px;
+}
+
+/*debug*/
+main .section-profile {
+  min-height: 500px;
+  background-color: #1abc9c;
+}
+
+/*debug*/
+main [class*="col-"] {
+  background-color: transparent;
+  min-height: 500px;
+}
+
+/* header {
+  background-color: #2c3e50;
+} */
+
+
+
+ nav {
+   /*debug*/
+   background-color: blue;
+   height: 100px;
+ }
+
+
+@media all and (min-width: 992px) {
+  /* debug */
+  body {
+    background-color: yellow;
+  }
+}
+
+@media all and (min-width: 1170px) {
+  /* debug */
+  body {
+    background-color: green;
+  }
 }
