@@ -6,13 +6,6 @@
 
 /* Typography */
 
-
-/* debug */
-div[class*="col"] {
-  background-color: transparent;
-  min-height: 100px;
-}
-
 main section:nth-child(odd) {
   background-color: #1abc9c;
 }
