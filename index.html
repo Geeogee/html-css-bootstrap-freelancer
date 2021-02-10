@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Main css -->
     <link rel="stylesheet" href="css/main.css">
 
@@ -177,7 +177,7 @@
       </section>
 
       <section class="section-about">
-        <!-- MAx width container -->
+        <!-- Container -->
         <div class="container">
           <!-- macro row -->
           <div class="row">
@@ -220,15 +220,39 @@
 
       <section class="section-contact">
         <!-- Full width container -->
-        <div class="container-fluid">
+        <div class="container">
           <!-- Macro row -->
           <div class="row">
             <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">
+
               <h2>Form</h2>
-            </div>
-          <!-- macro row end -->
-          </div>
-        <!-- fluid container end -->
+              <div class="starLine-separator">
+                <div class="hor-line"></div>
+                <i class="fas fa-star"></i>
+                <div class="hor-line"></div>
+              </div>
+
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Number">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Message" rows="6">
+                  </textarea>
+                </div>
+                <div class="form-group">
+                  <input type="button" class="btn btn-default" value="Send">
+                </div>
+              </form>
+
+            </div>  <!-- macro row end -->
+          </div> <!-- fluid container end -->
         </div>
       </section>
 
@@ -245,12 +269,46 @@
             <!-- Row for nested columns -->
             <div class="row">
               <div class="col-xs-12 col-md-4">
+                <h2 class="white-text text-uppercase">
+                  Location
+                </h2>
+                <div class="white-text medium-text text-container">
+                  2215 John Daniel Drive <br>
+                  Clark, MO 65243
+                </div>
               </div>
 
               <div class="col-xs-12 col-md-4">
+                <h2 class="white-text text-uppercase">
+                  Around the web
+                </h2>
+
+                <div class="social-links text-container medium-text">
+
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                  </a>
+
+                </div>
+
               </div>
 
               <div class="col-xs-12 col-md-4">
+                <h2 class="white-text text-uppercase">
+                  About freelancer
+                </h2>
+                <div class="white-text medium-text text-container">
+                  Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#">Start Bootstrap</a>.
+                </div>
               </div>
             </div>
           </div>

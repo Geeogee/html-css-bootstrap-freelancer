@@ -94,7 +94,7 @@ header ul {
 
 /* Main */
 main section {
-  padding: 20px 0;
+  padding: 80px 0;
 }
 
 section h2 {
@@ -165,6 +165,79 @@ h1 {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* Section Contact */
+.section-contact input:not([type="button"]),
+.section-contact textarea {
+  border: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-bottom: 1px solid #f4f5f7;
+  color: #495057;
+  font-weight: 500;
+  resize: none;
+  font-size: 2.5rem;
+}
+
+.section-contact input:not([type="button"]) {
+  height: 80px;
+}
+
+.section-contact input::placeholder,
+.section-contact textarea::placeholder {
+  color: #495057;
+}
+
+.section-contact input:focus,
+.section-contact textarea:focus {
+  border: 0;
+  -webkit-box-shadow: none;
+}
+
+.section-contact .btn {
+  background-color: #1abc9c;
+  color: #FFF;
+  border: 0;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* Footer */
+
+footer h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+footer .text-container {
+  text-align: center;
+}
+
+footer a {
+  color: #1abc9c;
+}
+
+footer a:hover {
+  color: #117964;
+  text-decoration: underline;
+}
+
+footer .social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: transparent;
+  border: 2px solid #FFF;
+  color: #FFF;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  background-color: #FFF;
+  color: #212529;
 }
 
 /* md query */
